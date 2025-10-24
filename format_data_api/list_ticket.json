@@ -1,0 +1,5510 @@
+{
+    "pagination": {
+        "limit": 500,
+        "offset": 0,
+        "count": 500,
+        "total": 666459
+    },
+    "data": [
+        {
+            "name": "Microsoft Corporation",
+            "ticker": "MSFT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Apple Inc",
+            "ticker": "AAPL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Amazon.com Inc",
+            "ticker": "AMZN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Alphabet Inc - Class C",
+            "ticker": "GOOG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Alphabet Inc - Class A",
+            "ticker": "GOOGL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Alibaba Group Holding Ltd",
+            "ticker": "BABA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "ProShares S&P 500 Dynamic Buffer ETF",
+            "ticker": "FB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "CBOE BZX U.S. EQUITIES EXCHANGE",
+                "acronym": "BATS",
+                "mic": "BATS"
+            }
+        },
+        {
+            "name": "BERKSHIRE HATHAWAY INC",
+            "ticker": "BRK.B",
+            "has_intraday": false,
+            "has_eod": false,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "BERKSHIRE HATHAWAY INC",
+            "ticker": "BRK.A",
+            "has_intraday": false,
+            "has_eod": false,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Vodafone Group plc",
+            "ticker": "VOD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Visa Inc - Class A",
+            "ticker": "V",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "JPMorgan Chase & Company",
+            "ticker": "JPM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Johnson & Johnson",
+            "ticker": "JNJ",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Walmart Inc",
+            "ticker": "WMT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Mastercard Incorporated - Class A",
+            "ticker": "MA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Procter & Gamble Company",
+            "ticker": "PG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Taiwan Semiconductor Manufacturing",
+            "ticker": "TSM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Chunghwa Telecom",
+            "ticker": "CHT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Roche Holding AG",
+            "ticker": "RHHBF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Roche Holding AG",
+            "ticker": "RHHVF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "AT&T Inc",
+            "ticker": "T",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Unitedhealth Group Inc",
+            "ticker": "UNH",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Bank Of America Corp",
+            "ticker": "BAC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Home Depot Inc",
+            "ticker": "HD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Intel Corp",
+            "ticker": "INTC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Coca-Cola Company",
+            "ticker": "KO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Verizon Communications Inc",
+            "ticker": "VZ",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Roche Holding AG",
+            "ticker": "RHHBY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Exxon Mobil Corp",
+            "ticker": "XOM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Walt Disney Co (The)",
+            "ticker": "DIS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Merck & Co Inc",
+            "ticker": "MRK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Novartis AG",
+            "ticker": "NVS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Comcast Corp - Class A",
+            "ticker": "CMCSA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Pfizer Inc",
+            "ticker": "PFE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "PepsiCo Inc",
+            "ticker": "PEP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Toyota Motor Corporation",
+            "ticker": "TM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Chevron Corp",
+            "ticker": "CVX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Adobe Inc",
+            "ticker": "ADBE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Cisco Systems Inc",
+            "ticker": "CSCO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Wells Fargo & Company",
+            "ticker": "WFC",
+            "has_intraday": true,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "NVIDIA Corp",
+            "ticker": "NVDA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Netflix Inc",
+            "ticker": "NFLX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Oracle Corp",
+            "ticker": "ORCL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Boeing Company",
+            "ticker": "BA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Salesforce Inc",
+            "ticker": "CRM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Sap SE",
+            "ticker": "SAP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "McDonald`s Corp",
+            "ticker": "MCD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Nike Inc - Class B",
+            "ticker": "NKE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Abbott Laboratories",
+            "ticker": "ABT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Citigroup Inc",
+            "ticker": "C",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Medtronic Plc",
+            "ticker": "MDT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "HSBC Holdings plc",
+            "ticker": "HSBC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Tesla Inc",
+            "ticker": "TSLA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Costco Wholesale Corp",
+            "ticker": "COST",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Bristol-Myers Squibb Company",
+            "ticker": "BMY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "PayPal Holdings Inc",
+            "ticker": "PYPL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Philip Morris International Inc",
+            "ticker": "PM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "NextEra Energy Inc",
+            "ticker": "NEE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Abbvie Inc",
+            "ticker": "ABBV",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Lilly(Eli) & Company",
+            "ticker": "LLY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "AMGEN Inc",
+            "ticker": "AMGN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Sanofi",
+            "ticker": "SNY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Thermo Fisher Scientific Inc",
+            "ticker": "TMO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "ASML Holding NV",
+            "ticker": "ASML",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Astrazeneca plc",
+            "ticker": "AZN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Accenture plc - Class A",
+            "ticker": "ACN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "International Business Machines Corp",
+            "ticker": "IBM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Honeywell International Inc",
+            "ticker": "HON",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "TotalEnergies SE",
+            "ticker": "TOT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Broadcom Inc",
+            "ticker": "AVGO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Texas Instruments Inc",
+            "ticker": "TXN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Novo Nordisk",
+            "ticker": "NVO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Union Pacific Corp",
+            "ticker": "UNP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Royal Bank Of Canada",
+            "ticker": "RY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "BP plc",
+            "ticker": "BP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Lockheed Martin Corp",
+            "ticker": "LMT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "American Tower Corp",
+            "ticker": "AMT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Linde Plc.",
+            "ticker": "LIN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "GSK Plc",
+            "ticker": "GSK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Danaher Corp",
+            "ticker": "DHR",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Charter Communications Inc - Class A",
+            "ticker": "CHTR",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "HDFC Bank Ltd",
+            "ticker": "HDB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "General Electric Company",
+            "ticker": "GE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Starbucks Corp",
+            "ticker": "SBUX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Anheuser-Busch InBev SA/NV",
+            "ticker": "BUD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Gilead Sciences Inc",
+            "ticker": "GILD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Toronto Dominion Bank",
+            "ticker": "TD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Sinopec Shanghai Petrochemical Co. Ltd",
+            "ticker": "SHI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Qualcomm Inc",
+            "ticker": "QCOM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "American Express Company",
+            "ticker": "AXP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Fidelity National Information Services Inc",
+            "ticker": "FIS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "British American Tobacco Plc",
+            "ticker": "BTI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "3M Company",
+            "ticker": "MMM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Lowe`s Cos. Inc",
+            "ticker": "LOW",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Diageo plc",
+            "ticker": "DEO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "ROYAL DUTCH SHELL ADR EA REP 2 CL'B' EUR0.07",
+            "ticker": "RDS.B",
+            "has_intraday": false,
+            "has_eod": false,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "CVS Health Corp",
+            "ticker": "CVS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "T-Mobile US Inc",
+            "ticker": "TMUS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Mondelez International Inc - Class A",
+            "ticker": "MDLZ",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "United Parcel Service Inc - Class B",
+            "ticker": "UPS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Deutsche Telekom AG",
+            "ticker": "DTEGY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Sony Corporation.",
+            "ticker": "SNE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Altria Group Inc",
+            "ticker": "MO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Fiserv Inc",
+            "ticker": "FISV",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Enbridge Inc",
+            "ticker": "ENB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "BlackRock Finance Inc",
+            "ticker": "BLK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Deutsche Telekom AG",
+            "ticker": "DTEGF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "TJX Companies Inc",
+            "ticker": "TJX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "CME Group Inc - Class A",
+            "ticker": "CME",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Unilever NV",
+            "ticker": "UN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Stryker Corp",
+            "ticker": "SYK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "U.S. Bancorp.",
+            "ticker": "USB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Intuit Inc",
+            "ticker": "INTU",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Goldman Sachs Group Inc",
+            "ticker": "GS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Cigna Group (The)",
+            "ticker": "CI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Morgan Stanley",
+            "ticker": "MS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Booking Holdings Inc",
+            "ticker": "BKNG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Duke Energy Corp",
+            "ticker": "DUK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "S&P Global Inc",
+            "ticker": "SPGI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Automatic Data Processing Inc",
+            "ticker": "ADP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Caterpillar Inc",
+            "ticker": "CAT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Dominion Energy Inc",
+            "ticker": "D",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Dominion Energy 7.25 06-01-22",
+            "ticker": "DCUE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Estee Lauder Cos. Inc - Class A",
+            "ticker": "EL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Chubb Ltd",
+            "ticker": "CB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Anthem Inc",
+            "ticker": "ANTM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Southern Company",
+            "ticker": "SO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Blackstone Inc",
+            "ticker": "BX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Becton Dickinson & Company",
+            "ticker": "BDX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Zoetis Inc - Class A",
+            "ticker": "ZTS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Truist Financial Corporation",
+            "ticker": "TFC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "ServiceNow Inc",
+            "ticker": "NOW",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Prologis Inc",
+            "ticker": "PLD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "BHP Group Ltd",
+            "ticker": "BHP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Crown Castle Inc",
+            "ticker": "CCI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Unilever plc",
+            "ticker": "UL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Intuitive Surgical Inc",
+            "ticker": "ISRG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Bank Of Nova Scotia",
+            "ticker": "BNS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Cnooc Ltd",
+            "ticker": "CEO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Brookfield Asset Management Ltd - Class A",
+            "ticker": "BAM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Colgate-Palmolive Company",
+            "ticker": "CL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Mitsubishi UFJ Financial Group Inc",
+            "ticker": "MUFG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Canadian National Railway Company",
+            "ticker": "CNI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Rio Tinto plc",
+            "ticker": "RIO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "ROYAL BANK OF CANADA",
+            "ticker": "RY.XTSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "TORONTO STOCK EXCHANGE",
+                "acronym": "TSX",
+                "mic": "XTSE"
+            }
+        },
+        {
+            "name": "CI FINANCIAL CORP.",
+            "ticker": "CIX.XTSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "TORONTO STOCK EXCHANGE",
+                "acronym": "TSX",
+                "mic": "XTSE"
+            }
+        },
+        {
+            "name": "FINNING INTL",
+            "ticker": "FTT.XTSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "TORONTO STOCK EXCHANGE",
+                "acronym": "TSX",
+                "mic": "XTSE"
+            }
+        },
+        {
+            "name": "Industrial and Coml Bank of China Ltd",
+            "ticker": "601398.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Construction Bank Corp",
+            "ticker": "601939.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Ping An Insurance Grp Company of China Ltd",
+            "ticker": "601318.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Kweichow Moutai Company Ltd",
+            "ticker": "600519.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Agricultural Bank of China Ltd",
+            "ticker": "601288.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Bank of China Ltd",
+            "ticker": "601988.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "PetroChina Company Ltd",
+            "ticker": "601857.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Merchants Bank Company Ltd",
+            "ticker": "600036.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Life Insurance Company Ltd",
+            "ticker": "601628.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Petroleum Chemical Corp",
+            "ticker": "600028.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Wuliangye Yibin Company Ltd",
+            "ticker": "000858.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Postal Savings Bank of China",
+            "ticker": "601658.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Bank of Communications Company Ltd",
+            "ticker": "601328.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Midea Group Company Ltd",
+            "ticker": "000333.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China Yangtze Power Company Ltd",
+            "ticker": "600900.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Jiangsu Hengrui Medicine Company Ltd",
+            "ticker": "600276.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Gree Electric Appliances Inc of Zhuhai",
+            "ticker": "000651.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Industrial Bank Company Ltd",
+            "ticker": "601166.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Vanke Company Ltd",
+            "ticker": "000002.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "BeijingShanghai High Speed Railway Company Ltd",
+            "ticker": "601816.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Foxconn Industrial Internet Company",
+            "ticker": "601138.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Hangzhou Hikvision Digital Techgy Company Ltd",
+            "ticker": "002415.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Shanghai Pudong Development Bank Company Ltd",
+            "ticker": "600000.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Shenhua Energy Company Ltd",
+            "ticker": "601088.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Contemporary Amperex Technology Company. Ltd",
+            "ticker": "300750.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "CITIC Securities Company Ltd",
+            "ticker": "600030.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Peoples Insurance Company Group of China Ltd",
+            "ticker": "601319.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Shenzhen Mindray BioMedical Electronics Company. L",
+            "ticker": "300760.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Anhui Conch Cement Company Ltd",
+            "ticker": "600585.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Pacific Insurance Group Company Ltd",
+            "ticker": "601601.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Ping An Bank Company Ltd",
+            "ticker": "000001.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Foshan Haitian Flavouring Food Company Ltd",
+            "ticker": "603288.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China CITIC Bank Corporation Ltd",
+            "ticker": "601998.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Luxshare Precision Industry Company Ltd",
+            "ticker": "002475.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "SAIC Motor Corporation Ltd",
+            "ticker": "600104.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Muyuan Foodstuff Company Ltd",
+            "ticker": "002714.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China Minsheng Banking Corp Ltd",
+            "ticker": "600016.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "CSC Financial Company",
+            "ticker": "601066.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "ZTE Corp",
+            "ticker": "000063.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China State Const Eng Corp Ltd",
+            "ticker": "601668.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Maanshan Dingtai Rar ErthNw Mtrl Company Ltd",
+            "ticker": "002352.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China Everbright Bank Company Ltd",
+            "ticker": "601818.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Poly Real Estate Group Company Ltd",
+            "ticker": "600048.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "CRRC Corp Ltd",
+            "ticker": "601766.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "BYD Company Ltd",
+            "ticker": "002594.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Wens Foodstuff Group Company Ltd",
+            "ticker": "300498.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "BOE Technology Group Company Ltd",
+            "ticker": "000725.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Inner Mongolia Yili Industrial Group Company",
+            "ticker": "600887.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Wuxi AppTec Company Ltd",
+            "ticker": "603259.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Huatai Securities Company Ltd",
+            "ticker": "601688.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China United Network Communications Ltd",
+            "ticker": "600050.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "HAITONG Securities Company Ltd",
+            "ticker": "600837.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "CGN Power Company Ltd",
+            "ticker": "003816.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "JoinuIn Holding Company Ltd",
+            "ticker": "600745.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Intl Travel Service Corp",
+            "ticker": "601888.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Guotai Junan Securities Company Ltd",
+            "ticker": "601211.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "360 Security Technology Inc",
+            "ticker": "601360.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Bank of Ningbo Company Ltd",
+            "ticker": "002142.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Jiangsu Yanghe Brewery JSC Ltd",
+            "ticker": "002304.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Wanhua Chemical Group Company Ltd",
+            "ticker": "600309.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Sany Heavy Industry Company LTD",
+            "ticker": "600031.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Will Semiconductor Company Ltd Shanghai",
+            "ticker": "603501.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Merchants Shekou Industrial Zone Holdings Co",
+            "ticker": "001979.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China Communications Construction Company Ltd",
+            "ticker": "601800.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Shenzhen Goodix Technology Company Ltd",
+            "ticker": "603160.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "New China Life Insurance Company Ltd",
+            "ticker": "601336.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Wuhu Yaxia Automobile Corp",
+            "ticker": "002607.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China Railway Group Ltd",
+            "ticker": "601390.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Aier Eye Hospital Group Company Ltd",
+            "ticker": "300015.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China Railway Construction Corp Ltd",
+            "ticker": "601186.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Shanghai International Airport Company Ltd",
+            "ticker": "600009.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Bank of Shanghai",
+            "ticker": "601229.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "East Money Information Company Ltd",
+            "ticker": "300059.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Shenwan Hongyuan Group Company Ltd",
+            "ticker": "000166.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Weichai Power Company Ltd",
+            "ticker": "000338.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China Merchants Securities CO LTD",
+            "ticker": "600999.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "XiAn LONGi Silicon Materials Company Ltd",
+            "ticker": "601012.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "GF Securities Company Ltd",
+            "ticker": "000776.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Giga Device Semiconductor Beijing Inc",
+            "ticker": "603986.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Yongyou Network Technology Company Ltd",
+            "ticker": "600588.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Baoshan Iron Steel Company Ltd",
+            "ticker": "600019.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Lu Zhou Lao Jiao CompanyLtd",
+            "ticker": "000568.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Henan Shuanghui Investment Development",
+            "ticker": "000895.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Qingdao Haier Company Ltd",
+            "ticker": "600690.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Guangzhou Automobile Group Company Ltd",
+            "ticker": "601238.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Beijing Kingsoft Office Software Inc",
+            "ticker": "688111.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Air China Ltd",
+            "ticker": "601111.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Bank of Beijing CompanyLtd",
+            "ticker": "601169.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "New Hope Liuhe Company Ltd",
+            "ticker": "000876.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Hua Xia Bank Company Ltd",
+            "ticker": "600015.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Galaxy Securities Company Ltd",
+            "ticker": "601881.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Zijin Mining Group Company Ltd",
+            "ticker": "601899.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Daqin Railway Company Ltd",
+            "ticker": "601006.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Shanghai International Port Group Company Ltd",
+            "ticker": "600018.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Shandong Gold Mining Company Ltd",
+            "ticker": "600547.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Dalian Rubber Plastics Machinery",
+            "ticker": "600346.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Gongniu Group Company Ltd",
+            "ticker": "603195.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Yunnan Baiyao Group Company Ltd",
+            "ticker": "000538.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "BOE Technology Group Company Ltd",
+            "ticker": "200725.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China Shipbuilding Industry Company Ltd",
+            "ticker": "601989.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Avary Holding",
+            "ticker": "002938.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Montage Technoloey Co Ltd",
+            "ticker": "688008.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Jinan Diesel Engine Company Ltd",
+            "ticker": "000617.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Guosen Securities CompanyLtd",
+            "ticker": "002736.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "SANAN OPTOELECTRONICS COLTD",
+            "ticker": "600703.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Changchun High New Tech Industry Inc",
+            "ticker": "000661.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Chongqing Zhifei Biological Prdct Company Ltd",
+            "ticker": "300122.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Unisplendour Corporation Ltd",
+            "ticker": "000938.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "NARI Technology Development Company Ltd",
+            "ticker": "600406.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "HUAYU Automotive Systems Company Ltd",
+            "ticker": "600741.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Molybdenum Luoyang Company Ltd",
+            "ticker": "603993.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Suning Commerce Group Company Ltd",
+            "ticker": "002024.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Advanced MicroFabrication Equipment Inc China",
+            "ticker": "688012.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Daye Special Steel Company Ltd",
+            "ticker": "000708.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "TCL Corp",
+            "ticker": "000100.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Anhui USTC iFlytek Company Ltd",
+            "ticker": "002230.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Lens Technology Company Ltd",
+            "ticker": "300433.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Sangfor Technologies Inc",
+            "ticker": "300454.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Yonghui Superstores Company Ltd",
+            "ticker": "601933.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Great Wall Motor Company Ltd",
+            "ticker": "601633.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "JPMF Guangdong Company Ltd",
+            "ticker": "002600.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Mango Excellent Media Company Ltd",
+            "ticker": "300413.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Hedy Holding Company Ltd",
+            "ticker": "002027.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China Zheshang Bank",
+            "ticker": "601916.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Zhejiang Century Huatong Group CompanyLtd",
+            "ticker": "002602.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Hongta Securities Company Ltd",
+            "ticker": "601236.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Hundsun Technologies Inc",
+            "ticker": "600570.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Shennan Circuits Company Ltd",
+            "ticker": "002916.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Shaanxi Coal Industry",
+            "ticker": "601225.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Shanxi Xinghuacun Fen Wine Factory Company",
+            "ticker": "600809.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Eastern Airlines Corporation Ltd",
+            "ticker": "600115.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Huaneng Power International Inc",
+            "ticker": "600011.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Bank of Jiangsu",
+            "ticker": "600919.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "GoerTek Inc",
+            "ticker": "002241.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Wuhu Shunrong Auto Parts Company Ltd",
+            "ticker": "002555.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Zhangzhou Pientzehuang Pharmaceutical Company",
+            "ticker": "600436.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Oilfield Services Ltd",
+            "ticker": "601808.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Seazen Holdings Company Ltd",
+            "ticker": "601155.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Shenzhen Kangtai Biological Products Company Ltd",
+            "ticker": "300601.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "China National Nuclear Power Company Ltd",
+            "ticker": "601985.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Shanghai Jinfeng Investment Company Ltd",
+            "ticker": "600606.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Southern Airlines Company Ltd",
+            "ticker": "600029.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Hithink Flush Information Network Company Ltd",
+            "ticker": "300033.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Shengyi Technology Company Ltd",
+            "ticker": "600183.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "China Fortune Land Company Ltd",
+            "ticker": "600340.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Beijing Sevenstar Electronics Company Ltd",
+            "ticker": "002371.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Ningxia Baofeng Energy Group CompanyLtd.",
+            "ticker": "600989.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "Orient Securities Company Ltd",
+            "ticker": "600958.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "JIANGXI GANFENG LITHIUM COLTD",
+            "ticker": "002460.XSHE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHENZHEN STOCK EXCHANGE",
+                "acronym": "",
+                "mic": "XSHE"
+            }
+        },
+        {
+            "name": "Shanghai Fosun Pharmaceutical Group",
+            "ticker": "600196.XSHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SHANGHAI STOCK EXCHANGE",
+                "acronym": "SSE",
+                "mic": "XSHG"
+            }
+        },
+        {
+            "name": "ISS A/S",
+            "ticker": "ISS.XCSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ COPENHAGEN A/S",
+                "acronym": "",
+                "mic": "XCSE"
+            }
+        },
+        {
+            "name": "ZEALAND PHARMA A/S",
+            "ticker": "ZEAL.XCSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ COPENHAGEN A/S",
+                "acronym": "",
+                "mic": "XCSE"
+            }
+        },
+        {
+            "name": "CISCO SYSTEMS INC. REGISTERED SHARES DL-,001",
+            "ticker": "CIS.XSTU",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOERSE STUTTGART",
+                "acronym": "",
+                "mic": "XSTU"
+            }
+        },
+        {
+            "name": "CIKARANG LISTRINDO TBK.",
+            "ticker": "POWR.XIDX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "INDONESIA STOCK EXCHANGE",
+                "acronym": "IDX",
+                "mic": "XIDX"
+            }
+        },
+        {
+            "name": "PACIFIC STRATEGIC FINANCIAL TBK.",
+            "ticker": "APIC.XIDX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "INDONESIA STOCK EXCHANGE",
+                "acronym": "IDX",
+                "mic": "XIDX"
+            }
+        },
+        {
+            "name": "MEDIOBANCA",
+            "ticker": "MB.XMIL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BORSA ITALIANA S.P.A.",
+                "acronym": "",
+                "mic": "XMIL"
+            }
+        },
+        {
+            "name": "VISA INC",
+            "ticker": "V.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "JPMORGAN CHASE & CO.",
+            "ticker": "JPM.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "MASTERCARD INCORPORATED",
+            "ticker": "MA.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "UNITEDHEALTH GROUP INC",
+            "ticker": "UNH.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "BANK OF AMERICA CORPORATION",
+            "ticker": "BAC.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "HOME DEPOT INC",
+            "ticker": "HD.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "VERIZON COMMUNICATIONS",
+            "ticker": "VZ.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "EXXON MOBIL CORPORATION",
+            "ticker": "XOM.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "COMCAST CORP",
+            "ticker": "CMCSA.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "ADOBE INC",
+            "ticker": "ADBE.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "CISCO SYSTEMS INC",
+            "ticker": "CSCO.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "NETFLIX INC",
+            "ticker": "NFLX.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "ORACLE CORP",
+            "ticker": "ORCL.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "ABBVIE INC",
+            "ticker": "ABBV.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "AMGEN INC",
+            "ticker": "AMGN.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "LOCKHEED MARTIN CORP",
+            "ticker": "LMT.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "STARBUCKS CORP",
+            "ticker": "SBUX.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "QUALCOMM INC",
+            "ticker": "QCOM.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "UNITED PARCEL SERVICE INC",
+            "ticker": "UPS.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "ALTRIA GROUP INC",
+            "ticker": "MO.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "FISERV INC",
+            "ticker": "FISV.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "BLACKROCK INC",
+            "ticker": "BLK.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "INTUIT INC",
+            "ticker": "INTU.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "GOLDMAN SACHS GROUP INC",
+            "ticker": "GS.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "MORGAN STANLEY",
+            "ticker": "MS.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "COLGATE-PALMOLIVE CO",
+            "ticker": "CL.XMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BOLSA MEXICANA DE VALORES (MEXICAN STOCK EXCHANGE)",
+                "acronym": "",
+                "mic": "XMEX"
+            }
+        },
+        {
+            "name": "ZEPAK",
+            "ticker": "ZEP.XWAR",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "WARSAW STOCK EXCHANGE/EQUITIES/MAIN MARKET",
+                "acronym": "WSE",
+                "mic": "XWAR"
+            }
+        },
+        {
+            "name": "GSH",
+            "ticker": "BDX.XSES",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SINGAPORE EXCHANGE",
+                "acronym": "SGX",
+                "mic": "XSES"
+            }
+        },
+        {
+            "name": "BRITISH AMERICAN TOB PLC",
+            "ticker": "BTI.XJSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "JOHANNESBURG STOCK EXCHANGE",
+                "acronym": "JSE",
+                "mic": "XJSE"
+            }
+        },
+        {
+            "name": "GROWTHPOINT PROP LTD",
+            "ticker": "GRT.XJSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "JOHANNESBURG STOCK EXCHANGE",
+                "acronym": "JSE",
+                "mic": "XJSE"
+            }
+        },
+        {
+            "name": "EQUITES PROP FUND LTD",
+            "ticker": "EQU.XJSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "JOHANNESBURG STOCK EXCHANGE",
+                "acronym": "JSE",
+                "mic": "XJSE"
+            }
+        },
+        {
+            "name": "FAMOUS BRANDS LTD",
+            "ticker": "FBR.XJSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "JOHANNESBURG STOCK EXCHANGE",
+                "acronym": "JSE",
+                "mic": "XJSE"
+            }
+        },
+        {
+            "name": "OMNIA HOLDINGS LTD",
+            "ticker": "OMN.XJSE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "JOHANNESBURG STOCK EXCHANGE",
+                "acronym": "JSE",
+                "mic": "XJSE"
+            }
+        },
+        {
+            "name": "AZKOYEN, S.A.",
+            "ticker": "AZK.BMEX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "BME - BOLSAS Y MERCADOS ESPANOLES",
+                "acronym": "BME",
+                "mic": "BMEX"
+            }
+        },
+        {
+            "name": "PEPSICO",
+            "ticker": "PEP.XSWX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SIX SWISS EXCHANGE",
+                "acronym": "SIX",
+                "mic": "XSWX"
+            }
+        },
+        {
+            "name": "GIVAUDAN N",
+            "ticker": "GIVN.XSWX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SIX SWISS EXCHANGE",
+                "acronym": "SIX",
+                "mic": "XSWX"
+            }
+        },
+        {
+            "name": "ZIMMER HLD",
+            "ticker": "ZBH.XSWX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "SIX SWISS EXCHANGE",
+                "acronym": "SIX",
+                "mic": "XSWX"
+            }
+        },
+        {
+            "name": "CENTRAL PATTANA PUBLIC COMPANY LIMITED",
+            "ticker": "CPN.XBKK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "STOCK EXCHANGE OF THAILAND",
+                "acronym": "SET",
+                "mic": "XBKK"
+            }
+        },
+        {
+            "name": "ASTRAZENECA PLC ORD SHS $0.25",
+            "ticker": "AZN.XLON",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "LONDON STOCK EXCHANGE",
+                "acronym": "LSE",
+                "mic": "XLON"
+            }
+        },
+        {
+            "name": "HONEYWELL INTERNATIONAL INCORPORATED COM STK USD1",
+            "ticker": "HON.XLON",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "LONDON STOCK EXCHANGE",
+                "acronym": "LSE",
+                "mic": "XLON"
+            }
+        },
+        {
+            "name": "BP PLC $0.25",
+            "ticker": "BP.XLON",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "LONDON STOCK EXCHANGE",
+                "acronym": "LSE",
+                "mic": "XLON"
+            }
+        },
+        {
+            "name": "GLAXOSMITHKLINE PLC ORD 25P",
+            "ticker": "GSK.XLON",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "LONDON STOCK EXCHANGE",
+                "acronym": "LSE",
+                "mic": "XLON"
+            }
+        },
+        {
+            "name": "VODAFONE GROUP PLC ORD USD0.20 20/21",
+            "ticker": "VOD.XLON",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "LONDON STOCK EXCHANGE",
+                "acronym": "LSE",
+                "mic": "XLON"
+            }
+        },
+        {
+            "name": "ST. JAMES'S PLACE PLC ORD 15P",
+            "ticker": "STJ.XLON",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "LONDON STOCK EXCHANGE",
+                "acronym": "LSE",
+                "mic": "XLON"
+            }
+        },
+        {
+            "name": "JOINT STOCK COMMERCIAL BANK FOR INVESTMENT AND DEV",
+            "ticker": "BID.XSTC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "HOCHIMINH STOCK EXCHANGE",
+                "acronym": "HOSE",
+                "mic": "XSTC"
+            }
+        },
+        {
+            "name": "PETROVIETNAM GAS JOINT STOCK CORPORATION",
+            "ticker": "GAS.XSTC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "HOCHIMINH STOCK EXCHANGE",
+                "acronym": "HOSE",
+                "mic": "XSTC"
+            }
+        },
+        {
+            "name": "VIET CAPITAL SECURITIES JOINT STOCK COMPANY",
+            "ticker": "VCI.XSTC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "HOCHIMINH STOCK EXCHANGE",
+                "acronym": "HOSE",
+                "mic": "XSTC"
+            }
+        },
+        {
+            "name": "China Petroleum & Chemical Corp",
+            "ticker": "SNP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Vertex Pharmaceuticals Inc",
+            "ticker": "VRTX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Micron Technology Inc",
+            "ticker": "MU",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Banco Santander S.A.",
+            "ticker": "SAN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Zurich Insurance Group AG Ltd",
+            "ticker": "ZFSVF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Zurich Insurance Group AG Ltd",
+            "ticker": "ZURVY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Heineken N.V",
+            "ticker": "HINKF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Shopify Inc - Class A",
+            "ticker": "SHOP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "BNP Paribas",
+            "ticker": "BNPQF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Uber Technologies Inc",
+            "ticker": "UBER",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Heineken N.V",
+            "ticker": "HEINY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Ecolab Inc",
+            "ticker": "ECL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "BNP Paribas",
+            "ticker": "BNPQY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Advanced Micro Devices Inc",
+            "ticker": "AMD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Northrop Grumman Corp",
+            "ticker": "NOC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Global Payments Inc",
+            "ticker": "GPN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Takeda Pharmaceutical Company",
+            "ticker": "TAK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Biogen Inc",
+            "ticker": "BIIB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Axa",
+            "ticker": "AXAHY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Axa",
+            "ticker": "AXAHF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Illinois Tool Works Inc",
+            "ticker": "ITW",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Adidas AG",
+            "ticker": "ADDDF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Basf SE",
+            "ticker": "BASFY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Basf SE",
+            "ticker": "BFFAF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Marsh & McLennan Cos. Inc",
+            "ticker": "MMC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "CSX Corp",
+            "ticker": "CSX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Adidas AG",
+            "ticker": "ADDYY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Applied Materials Inc",
+            "ticker": "AMAT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "PNC Financial Services Group Inc",
+            "ticker": "PNC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Intercontinental Exchange Inc",
+            "ticker": "ICE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Equinix Inc",
+            "ticker": "EQIX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Target Corp",
+            "ticker": "TGT",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "JD.com Inc",
+            "ticker": "JD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Regeneron Pharmaceuticals Inc",
+            "ticker": "REGN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Vale S.A.",
+            "ticker": "VALE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Westpac Banking Corp",
+            "ticker": "WBK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Boston Scientific Corp",
+            "ticker": "BSX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Ambev S.A.",
+            "ticker": "ABEV",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Conoco Phillips",
+            "ticker": "COP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Equinor ASA",
+            "ticker": "EQNR",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Sherwin-Williams Company",
+            "ticker": "SHW",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Enterprise Products Partners L P",
+            "ticker": "EPD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "WalMart De Mex Sp A",
+            "ticker": "WMMVY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Vmware Inc - Class A",
+            "ticker": "VMW",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Air Products & Chemicals Inc",
+            "ticker": "APD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Aon plc. - Class A",
+            "ticker": "AON",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "TC Energy Corporation",
+            "ticker": "TRP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Deere & Company",
+            "ticker": "DE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Waste Management Inc",
+            "ticker": "WM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Kimberly-Clark Corp",
+            "ticker": "KMB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Moody`s Corp",
+            "ticker": "MCO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "American Electric Power Company Inc",
+            "ticker": "AEP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Humana Inc",
+            "ticker": "HUM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "General Dynamics Corp",
+            "ticker": "GD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "RELX Plc",
+            "ticker": "RELX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Activision Blizzard Inc",
+            "ticker": "ATVI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Charles Schwab Corp",
+            "ticker": "SCHW",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "National Grid Plc",
+            "ticker": "NGG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "ABB Ltd",
+            "ticker": "ABB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Norfolk Southern Corp",
+            "ticker": "NSC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Progressive Corp",
+            "ticker": "PGR",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Baxter International Inc",
+            "ticker": "BAX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Danone",
+            "ticker": "GPDNF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "L3Harris Technologies Inc",
+            "ticker": "LHX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Petroleo Brasileiro S.A. Petrobras",
+            "ticker": "PBR",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Kinder Morgan Inc - Class P",
+            "ticker": "KMI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "HCA Healthcare Inc",
+            "ticker": "HCA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Danone",
+            "ticker": "DANOY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Exelon Corp",
+            "ticker": "EXC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Honda Motor",
+            "ticker": "HMC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Edwards Lifesciences Corp",
+            "ticker": "EW",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "General Motors Company",
+            "ticker": "GM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Eni Spa",
+            "ticker": "E",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Infosys Ltd",
+            "ticker": "INFY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Lam Research Corp",
+            "ticker": "LRCX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "ICICI Bank Ltd",
+            "ticker": "IBN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Prudential plc",
+            "ticker": "PUK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Las Vegas Sands Corp",
+            "ticker": "LVS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "NetEase Inc",
+            "ticker": "NTES",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Lloyds Banking Group plc",
+            "ticker": "LYG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Bank of Montreal",
+            "ticker": "BMO",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Sempra",
+            "ticker": "SRE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Walgreens Boots Alliance Inc",
+            "ticker": "WBA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "BCE Inc",
+            "ticker": "BCE",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Sumitomo Mitsui Financial Group Inc",
+            "ticker": "SMFG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Autodesk Inc",
+            "ticker": "ADSK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Illumina Inc",
+            "ticker": "ILMN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Analog Devices Inc",
+            "ticker": "ADI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Newmont Corp",
+            "ticker": "NEM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "BHP Group Plc",
+            "ticker": "BBL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Capital One Financial Corp",
+            "ticker": "COF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Emerson Electric Company",
+            "ticker": "EMR",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Suncor Energy Inc",
+            "ticker": "SU",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Dollar General Corp",
+            "ticker": "DG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Eaton Corporation plc",
+            "ticker": "ETN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "UBS Group AG",
+            "ticker": "UBS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Metlife Inc",
+            "ticker": "MET",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Public Storage.",
+            "ticker": "PSA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "SentinelOne Inc - Class A",
+            "ticker": "S",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Ross Stores Inc",
+            "ticker": "ROST",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Koninklijke Philips N.V.",
+            "ticker": "PHG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Thomson-Reuters Corp",
+            "ticker": "TRI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Workday Inc - Class A",
+            "ticker": "WDAY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Keurig Dr Pepper Inc",
+            "ticker": "KDP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Roper Technologies Inc",
+            "ticker": "ROP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "America Movil S.A.B.DE C.V.",
+            "ticker": "AMX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Marriott International Inc - Class A",
+            "ticker": "MAR",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Simon Property Group Inc",
+            "ticker": "SPG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Atlassian Corporation - Class A",
+            "ticker": "TEAM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "SLB",
+            "ticker": "SLB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "EOG Resources Inc",
+            "ticker": "EOG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Ecopetrol SA",
+            "ticker": "EC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Orange.",
+            "ticker": "ORAN",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "American International Group Inc",
+            "ticker": "AIG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Centene Corp",
+            "ticker": "CNC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Barrick Gold Corp",
+            "ticker": "GOLD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Monster Beverage Corp",
+            "ticker": "MNST",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Xcel Energy Inc",
+            "ticker": "XEL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Allstate Corp (The)",
+            "ticker": "ALL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "ING Groep N.V.",
+            "ticker": "ING",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Bank Of New York Mellon Corp",
+            "ticker": "BK",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Sysco Corp",
+            "ticker": "SYY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Fedex Corp",
+            "ticker": "FDX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Constellation Brands Inc - Class A",
+            "ticker": "STZ",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Canadian Pacific Kansas City Ltd",
+            "ticker": "CP",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Canadian Imperial Bank Of Commerce",
+            "ticker": "CM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Block Inc - Class A",
+            "ticker": "SQ",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Cognizant Technology Solutions Corp - Class A",
+            "ticker": "CTSH",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "SBA Communications Corp - Class A",
+            "ticker": "SBAC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "NXP Semiconductors NV",
+            "ticker": "NXPI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Travelers Companies Inc",
+            "ticker": "TRV",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Baidu Inc",
+            "ticker": "BIDU",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Itau Unibanco Holding S.A.",
+            "ticker": "ITUB",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Mizuho Financial Group Inc",
+            "ticker": "MFG",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "WEC Energy Group Inc",
+            "ticker": "WEC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Manulife Financial Corp",
+            "ticker": "MFC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Hershey Company",
+            "ticker": "HSY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Experian Plc",
+            "ticker": "EXPGF",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "Phillips 66",
+            "ticker": "PSX",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "General Mills Inc",
+            "ticker": "GIS",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Welltower Inc",
+            "ticker": "WELL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Experian Plc",
+            "ticker": "EXPGY",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "OTC LINK ATS - OTC MARKETS",
+                "acronym": "",
+                "mic": "OTCM"
+            }
+        },
+        {
+            "name": "DuPont de Nemours Inc",
+            "ticker": "DD",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Eversource Energy",
+            "ticker": "ES",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "MercadoLibre Inc",
+            "ticker": "MELI",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Banco Bilbao Vizcaya Argentaria.",
+            "ticker": "BBVA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        },
+        {
+            "name": "Electronic Arts Inc",
+            "ticker": "EA",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Kraft Heinz Company",
+            "ticker": "KHC",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Zoom Video Communications Inc - Class A",
+            "ticker": "ZM",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NASDAQ - ALL MARKETS",
+                "acronym": "NASDAQ",
+                "mic": "XNAS"
+            }
+        },
+        {
+            "name": "Aflac Inc",
+            "ticker": "AFL",
+            "has_intraday": false,
+            "has_eod": true,
+            "stock_exchange": {
+                "name": "NEW YORK STOCK EXCHANGE, INC.",
+                "acronym": "NYSE",
+                "mic": "XNYS"
+            }
+        }
+    ]
+}

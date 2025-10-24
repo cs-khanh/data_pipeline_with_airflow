@@ -1,0 +1,78 @@
+{
+    "meta": {
+        "found": 17,
+        "returned": 2,
+        "limit": 2,
+        "page": 1
+    },
+    "data": [
+        {
+            "uuid": "3f0b8bb3-fe7a-42da-8d1c-1c11a130edd5",
+            "title": "Navigating Uncertainty: Markets React to Government Shutdown and Mixed Economic Signals",
+            "description": "U.S. stock markets navigated a turbulent Wednesday, October 1, 2025, as investors grappled with the implications of a federal government shutdown and a mixed",
+            "keywords": "",
+            "snippet": "U.S. stock markets navigated a turbulent Wednesday, October 1, 2025, as investors grappled with the implications of a federal government shutdown and a mixed ba...",
+            "url": "https://stockmarketwatch.com/stock-market-news/navigating-uncertainty-markets-react-to-government-shutdown-and-mixed-economic-signals/53916/",
+            "image_url": "https://stockmarketwatch.com/stock-market-news/wp-content/uploads/2025/07/smw-icon-1000x700-logo.png",
+            "language": "en",
+            "published_at": "2025-10-01T21:07:45.000000Z",
+            "source": "thestockmarketwatch.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "MSFT",
+                    "name": "Microsoft Corporation",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Technology",
+                    "match_score": 9.279251,
+                    "sentiment_score": 0.7184,
+                    "highlights": [
+                        {
+                            "highlight": "While Google (GOOG, GOOGL) and <em>Micro[+292 characters]",
+                            "sentiment": 0.7184,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": []
+        },
+        {
+            "uuid": "8566698d-acb4-4a28-9bcd-8345c23891ef",
+            "title": "Fermi AI energy start-up soars on Nasdaq, plans massive nuclear and renewable power campus",
+            "description": "Fermi AI Energy IPO, co-founded by Rick Perry, is a new company building big energy and AI data centres in Texas. Its shares rose on Nasdaq, and it will also trade in London to attract global investors. The company plans nuclear, gas, and renewable power to meet growing AI electricity needs, raising billions from its IPO.",
+            "keywords": "fermi stock, Fermi AI energy, Fermi IPO 2025, Rick Perry start-up, AI data centres, Nuclear power campus, Nasdaq LSE dual listing, Texas energy project, Renewable energy for AI, Fermi stock news",
+            "snippet": "Fermi AI energy growth\n\nOklo (nuclear developer) quadrupled in value.\n\n\n\n\n\nConstellation Energy rose 53%.\n\n\n\n\n\nGE Vernova climbed 76%.\n\n\n\n\n\nNRG Energy surged 80...",
+            "url": "https://economictimes.indiatimes.com/news/international/us/fermi-ai-energy-start-up-soars-on-nasdaq-plans-massive-nuclear-and-renewable-power-campus/articleshow/124265821.cms",
+            "image_url": "https://img.etimg.com/thumb/msid-124265821,width-1200,height-630,imgsize-35068,overlay-economictimes/articleshow.jpg",
+            "language": "en",
+            "published_at": "2025-10-01T19:51:08.000000Z",
+            "source": "economictimes.indiatimes.com",
+            "relevance_score": null,
+            "entities": [
+                {
+                    "symbol": "MSFT",
+                    "name": "Microsoft Corporation",
+                    "exchange": null,
+                    "exchange_long": null,
+                    "country": "us",
+                    "type": "equity",
+                    "industry": "Technology",
+                    "match_score": 24.850998,
+                    "sentiment_score": 0.5574,
+                    "highlights": [
+                        {
+                            "highlight": "The energy build-out is expected to cost[+241 characters]",
+                            "sentiment": 0.5574,
+                            "highlighted_in": "main_text"
+                        }
+                    ]
+                }
+            ],
+            "similar": []
+        }
+    ]
+}

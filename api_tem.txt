@@ -1,0 +1,39 @@
+1. https://marketstack.com/documentation_v2 : dùng để lấy giá cổ phiếu 
+2. https://exchangerate.host/documentation : Tỷ giá USD→VND 
+3. https://www.stockdata.org/documentation : Tin tức liên quan AAPL/MSFT/TSLA
+
+
+
+| Nguồn                 | Loại     | API chính                             | Mục tiêu                                |
+| --------------------- | -------- | ------------------------------------- | --------------------------------------- |
+| **Marketstack**       | REST API | `/v2/eod`                             | Giá cổ phiếu EOD theo `symbol` + `date` |
+| **exchangerate.host** | REST API | `/latest?base=USD&symbols=VND`        | Tỷ giá USD→VND mỗi ngày                 |
+| **StockData.org**     | REST API | `/v1/news/all?symbols=AAPL,MSFT,TSLA` | Tin tức liên quan các mã cổ phiếu       |
+
+hejogor271@fixwap.com
+khanh12345@
+
+
+MSFT	Microsoft Corporation
+AAPL	Apple Inc
+AMZN	Amazon.com Inc
+GOOG	Alphabet Inc - Class C
+TSLA    Tesla Inc
+
+http://api.marketstack.com/v2/eod/2025-10-01?access_key=3e19d5139706431d84bca26a87f1581b&symbols=MSFT,AAPL,AMZN,GOOG,TSLA
+
+https://api.exchangerate.host/historical?access_key=d99bef3de8242329038dd1e79180f2d5&date=2025-10-01
+
+
+
+
+
+exec vào postgre
+docker exec -it miniproject-postgres-1 psql -U airflow -d airflow
+\i /docker-entrypoint-initdb.d/init_db.sql
+
+
+sudo chmod -R 777 /home/khanh/MiniProject/logs
+
+docker compose down -v
+docker compose up -d
