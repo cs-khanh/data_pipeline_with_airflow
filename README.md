@@ -8,11 +8,28 @@ Dự án này là một pipeline tự động thu thập dữ liệu chứng kho
 
 ## 🏗️ Kiến trúc hệ thống
 
-- **Apache Airflow**: Orchestration và scheduling
+### Tổng quan
+
+Hệ thống được xây dựng trên kiến trúc microservices sử dụng Docker Compose, bao gồm:
+
+- **Apache Airflow**: Orchestration và scheduling pipeline
 - **PostgreSQL**: Database lưu trữ dữ liệu
 - **Docker & Docker Compose**: Containerization
-- **APIs**: MarketStack, ExchangeRate-API, NewsAPI
+- **External APIs**: MarketStack, ExchangeRate-API, NewsAPI
 - **Slack**: Thông báo trạng thái pipeline
+
+### Sơ đồ Kiến trúc Hệ thống
+
+![Architecture Systems](ArchitectureSystems.jpg)
+
+*Sơ đồ kiến trúc hệ thống Stock Data Pipeline*
+
+Hệ thống bao gồm các thành phần chính:
+- **Docker Environment**: Chứa các services (Airflow Webserver, Scheduler, PostgreSQL)
+- **External APIs**: Các nguồn dữ liệu bên ngoài (MarketStack, ExchangeRate, NewsAPI)
+- **Data Pipeline**: Quy trình ETL tự động được điều phối bởi Airflow
+- **PostgreSQL Database**: Lưu trữ dữ liệu đã được xử lý
+- **Slack Integration**: Gửi thông báo trạng thái pipeline
 
 ## 📋 Yêu cầu hệ thống
 
@@ -94,23 +111,79 @@ docker exec -it miniproject-postgres-1 psql -U airflow -d airflow
 
 ## 📊 Cấu trúc Database
 
-Pipeline tạo ra 4 bảng chính:
+### Sơ đồ Database (ERD)
 
-### `tickers_metadata`
-- Lưu thông tin metadata của các mã cổ phiếu
-- Bao gồm: ticker, name, stock_exchange_name, etc.
+![Database Diagram](DiagramDB.png)
 
-### `stock_prices`
-- Lưu dữ liệu giá cổ phiếu theo ngày
-- Bao gồm: ticker, date, open, high, low, close, volume
+*Sơ đồ quan hệ cơ sở dữ liệu (Entity Relationship Diagram)*
 
-### `exchange_rates`
-- Lưu tỷ giá hối đoái
-- Bao gồm: date, base_currency, target_currency, rate
+### Chi tiết các bảng
 
-### `news`
-- Lưu tin tức liên quan đến cổ phiếu
-- Bao gồm: title, description, url, sentiment_score, etc.
+Pipeline tạo ra 4 bảng chính trong database `stock_data`:
+
+#### `tickers_metadata`
+Lưu thông tin metadata của các mã cổ phiếu, được tải một lần khi khởi tạo pipeline.
+
+**Các trường chính:**
+- `ticker` (PK): Mã cổ phiếu (AAPL, MSFT, TSLA, ...)
+- `name`: Tên công ty đầy đủ
+- `stock_exchange_name`: Tên sàn giao dịch (NASDAQ, NYSE, ...)
+- `acronym`: Mã sàn (NASDAQ, NYSE, ...)
+- `mic`: Market Identifier Code (XNAS, XNYS, ...)
+- `has_intraday`, `has_eod`: Cờ xác định loại dữ liệu có sẵn
+- `ingested_at`: Thời điểm nạp dữ liệu
+
+#### `stock_prices`
+Lưu dữ liệu giá cổ phiếu theo ngày với các chỉ số được tính toán tự động.
+
+**Các trường chính:**
+- `ticker` (PK, FK): Mã cổ phiếu
+- `date` (PK): Ngày giao dịch
+- `open`, `high`, `low`, `close`: Giá mở cửa, cao nhất, thấp nhất, đóng cửa
+- `volume`: Khối lượng giao dịch
+- `asset_type`: Loại tài sản
+- `price_currency`: Đơn vị tiền tệ
+- **Các chỉ số tính toán:**
+  - `daily_change`: Thay đổi giá trong ngày (close - open)
+  - `daily_return`: Tỷ suất lợi nhuận (%)
+  - `volatility`: Độ biến động (high - low)
+  - `avg_price`: Giá trung bình
+  - `turnover`: Doanh thu (volume × close)
+  - `gap`: Gap (%)
+  - `range_ratio`: Tỷ lệ khoảng (%)
+- `ingested_at`: Thời điểm nạp dữ liệu
+
+#### `exchange_rates`
+Lưu tỷ giá hối đoái giữa các cặp tiền tệ.
+
+**Các trường chính:**
+- `date` (PK): Ngày
+- `base_currency` (PK): Tiền tệ cơ sở (thường là USD)
+- `target_currency` (PK): Tiền tệ đích (EUR, GBP, JPY, ...)
+- `rate`: Tỷ giá
+- `inverse_rate`: Tỷ giá nghịch đảo (1/rate)
+- `rate_change`: Thay đổi tỷ giá so với ngày trước (%)
+- `ingested_at`: Thời điểm nạp dữ liệu
+
+#### `news`
+Lưu tin tức liên quan đến cổ phiếu với phân tích sentiment.
+
+**Các trường chính:**
+- `uuid` (PK): UUID duy nhất của tin tức
+- `title`, `description`, `url`, `image_url`: Nội dung tin tức
+- `language`: Ngôn ngữ
+- `source`: Nguồn tin tức
+- `symbol`: Mã cổ phiếu liên quan
+- `country`, `type`, `industry`: Thông tin địa lý và ngành
+- `relevance_score`: Điểm liên quan
+- `match_score`: Điểm khớp
+- **Các chỉ số sentiment:**
+  - `sentiment_score`: Điểm cảm xúc (-1 đến 1)
+  - `sentiment_label`: Nhãn cảm xúc (Positive/Negative/Neutral)
+  - `impact_index`: Chỉ số tác động
+  - `weighted_sentiment`: Cảm xúc có trọng số
+- `published_at`: Thời điểm xuất bản
+- `ingested_at`: Thời điểm nạp dữ liệu
 
 ## 🔧 Cấu hình Pipeline
 ```
@@ -128,7 +201,7 @@ Pipeline tạo ra 4 bảng chính:
 
 ### Workflow
 1. **start**: Khởi tạo pipeline và gửi thông báo Slack
-2. **load_metadata**: Tải metadata của các mã cổ phiếu (chỉ chạy lần đầu)
+2. **load_tickers_metadata**: Tải metadata của các mã cổ phiếu (chỉ chạy lần đầu)
 3. **extract_data** (TaskGroup):
    - `load_eod`: Tải dữ liệu giá cổ phiếu
    - `load_exchangerate`: Tải tỷ giá hối đoái
@@ -142,7 +215,7 @@ Pipeline tạo ra 4 bảng chính:
 ### Xem logs
 ```bash
 # Xem logs của tất cả services
-docker-compose logs -f
+docker compose logs -f
 
 # Xem logs của service cụ thể
 docker compose logs -f airflow-scheduler
